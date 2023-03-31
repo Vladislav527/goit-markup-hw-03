@@ -1,0 +1,213 @@
+:root
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color:#FFFFFF
+}
+
+.logo-header {
+font-family: 'Raleway',
+ sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+} 
+.logo-header-blue-black {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+     
+
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.link-nav:is(:hover,:focus) {
+    color: #404bbf;
+}
+.link-nav {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.contacts {  
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.contact-link-header {
+list-style: none;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.link:is(:hover, :focus){
+    color: #404bbf;}
+
+    .section-banner {
+        background-color:#2e2f42
+    }
+    .section-banner-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #FFFFFF;
+    }
+    .button-banner {cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+
+        background-color: #4D5AE5;
+        }
+.company-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+        color: #2E2F42;
+}
+.company-title-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.section-works-title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+   
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2E2F42;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    
+    text-align: center;
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+    
+    
+    color: #2E2F42;
+}
+.section-team {
+    background-color: #F4F4FD
+}
+.section-team-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    
+        color: #2E2F42;
+}
+      .section-team-text {
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        
+            color: #434455;
+      }
+       
+.logo-footer {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-footer-studio {
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+}
+.footer-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.footer-background {
+    background-color:#2e2f42
+}
+/*--------------- Portfolio ---------------*/
+
+.button-list {
+    list-style: none;
+}
+.button-navigation {
+    cursor: pointer;
+    background-color: #f5f4fa;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button-navigation:hover,
+.button-navigation:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+/*--------------- Foto ---------------*/
+.portfolio-header {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.portfolio-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
