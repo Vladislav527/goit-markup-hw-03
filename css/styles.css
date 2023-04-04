@@ -7,7 +7,6 @@ body {
 h1,h2,h3,h4,p {
     margin-top: 0;
     margin-bottom: 0;
-
 }
 ul,ol {
     margin-top: 0;
@@ -24,7 +23,7 @@ ul,ol {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-margin:0 auto;
+    margin:0 auto;
  }
 /*--------------- Header ---------------*/
 
@@ -148,13 +147,16 @@ margin-right: 40px;
     /*--------------- Work ---------------*/
 .section-company{
 display: flex;
-padding-top: 128px;
+padding-top: 120px;
 padding-bottom: 120px;
 align-items: center;
 
 }
 .work-company{
     display: flex;
+    margin-right: 24px;
+    gap: 24px;
+
 }
 
 
@@ -166,6 +168,7 @@ align-items: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-bottom: 8px;
 
 }
 .company-title-text {
@@ -174,60 +177,74 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
-  
+}
+.section-works{
+padding-bottom: 120px;
+}
+.works{
+    display: flex;
+    gap: 24px;
 }
 .section-works-title {font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-   
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 .section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    
     text-align: center;
-     letter-spacing: 0.02em;
-     text-transform: capitalize;
-    
-    
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
     color: #2E2F42;
 }
-.section-team {
-    background-color: #F4F4FD
+.section-team-four{
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
+.team-section{
+    display: flex;
+    gap: 24px;
+}
+
 .section-team-title {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+        font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-    
-        color: #2E2F42;
+        text-align: center;
+        color: #2E2F42;   
+        margin-top: 32px;
+}
+.section-four-text-title{
+background-color: #FFFFFF;
+width: 264px;
+height: 380px;
+
 }
       .section-team-text {
-        font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-        
-            color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+        margin-top: 8px;
       }
        
 .logo-footer {
     font-family: 'Raleway',
-        sans-serif;
-    font-weight: 800;
+    sans-serif;
     font-size: 18px;
     line-height: 1.17;
-
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     color: #4D5AE5;
 }
 .logo-footer-studio {
@@ -242,12 +259,16 @@ align-items: center;
 }
 .footer-title {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    margin-top: 16px;
+    width: 264px;
 }
 .footer-background {
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color:#2e2f42
 }
 /*--------------- Portfolio ---------------*/
