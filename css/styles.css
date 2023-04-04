@@ -28,10 +28,14 @@ ul,ol {
 /*--------------- Header ---------------*/
 
 .page-header-conteiner {
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
+ }
+ .page-header{
     padding-top: 24px;
     padding-bottom: 24px;
+ }
+ .header-list{
  }
  .page-nav{
     display: flex;
@@ -39,11 +43,11 @@ ul,ol {
  .menu,
  .contacts{
     display: flex;
-    align-items: center   
+    
  }
 
  .logo-header{
-    margin-right: 76px;
+     margin-right: auto;
  }
 .link-nav:not(last-child){
     margin-right: 40px;
@@ -101,6 +105,8 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #434455;
+display: flex;
+margin-right auto, 0;
 }
 .contact-link-header {
 list-style: none;
@@ -158,10 +164,6 @@ align-items: center;
     gap: 24px;
 
 }
-
-
-
-
 .company-title {
     font-weight: 500;
     font-size: 20px;
@@ -290,6 +292,34 @@ height: 380px;
     background-color: #404BBF;
     color: #ffffff;
 }
+/*--------------- HEADER ---------------*/
+.header-portfolio{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+   
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header-menu{
+    display: flex;    
+}
+.menu{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        text-decoration: none;
+        gap: 40px;
+        margin-left: 76px;
+}
+.menu-header{
+    display: flex;
+    margin-left: 24px;
+}
+
+/*--------------- HEADER ---------------*/
 /*--------------- Foto ---------------*/
 .portfolio-header {
         font-weight: 500;
