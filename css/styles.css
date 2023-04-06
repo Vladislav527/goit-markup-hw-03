@@ -266,7 +266,12 @@ height: 380px;
     background-color:#2e2f42
 }
 /*--------------- Portfolio ---------------*/
-
+.page-header-portfolio{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .button-list {
     list-style: none;
 }
@@ -311,11 +316,6 @@ height: 380px;
         gap: 40px;
         margin-left: 76px;
 }
-.menu-header{
-    display: flex;
-    margin-left: 24px;
-}
-
 /*--------------- HEADER ---------------*/
 /*--------------- Foto ---------------*/
 .portfolio-header {
@@ -332,3 +332,46 @@ height: 380px;
         letter-spacing: 0.02em;
         color: #434455;
 }
+/*--------------- Foto ---------------*/
+/*--------------- NAVIGATION ---------------*/
+.section-navigation{
+   padding-top: 96px;
+   padding-bottom: 72px;
+}
+.button-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.button-navigation{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
+}
+/*--------------- NAVIGATION ---------------*/
+/*--------------- IMAGES ---------------*/
+.images-list{
+ display: flex;
+ flex-wrap: wrap;
+ row-gap: 48px;
+ column-gap: 24px;
+}
+.work-servises{
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+/*--------------- IMAGES ---------------*/
+/*--------------- FOOTER ---------------*/
+
+/*--------------- FOOTER ---------------*/
