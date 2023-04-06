@@ -1,12 +1,11 @@
-:root
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color:#FFFFFF
 }
 h1,h2,h3,h4,p {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 ul,ol {
     margin-top: 0;
@@ -34,8 +33,6 @@ ul,ol {
     padding-top: 24px;
     padding-bottom: 24px;
  }
- .header-list{
- }
  .page-nav{
     display: flex;
     margin-right: auto;
@@ -57,7 +54,7 @@ font-family: 'Raleway',
     color: #4D5AE5;
 } 
 .logo-header-blue-black {
-    font-family: 'Raleway'sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -103,8 +100,11 @@ color: #434455;
     color: #404bbf;}
 /*--------------- Header ---------------*/
 /*--------------- Hero ---------------*/
-
-    .section-hero-title {
+.banner-box {
+    background-color: #2e2f42;
+    padding: 188px 0px;
+}
+.section-hero-title {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -139,10 +139,10 @@ color: #434455;
     /*--------------- Hero ---------------*/
     /*--------------- Work ---------------*/
 .section-company{
-display: flex;
+
 padding-top: 120px;
 padding-bottom: 120px;
-align-items: center;
+
 
 }
 .work-company{
@@ -161,11 +161,11 @@ align-items: center;
 
 }
 .company-title-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    width: 264px;
 }
 .section-works{
 padding-bottom: 120px;
@@ -204,18 +204,23 @@ padding-bottom: 120px;
 }
 
 .section-team-title {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2E2F42;   
-        margin-top: 32px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-align: center;
 }
 .section-four-text-title{
 background-color: #FFFFFF;
 width: 264px;
 height: 380px;
-
+}
+.section-list{
+    background-color: #FFFFFF;
+    padding: 32px 16px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
       .section-team-text {
         font-size: 16px;
@@ -327,5 +332,3 @@ height: 380px;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.banner-box{background-color: #2f303a;
-padding:188px 0px;}
